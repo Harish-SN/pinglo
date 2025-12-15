@@ -34,11 +34,3 @@ Just enter a name, join a room, and chat — instantly.
 
 ### Prerequisites
 - Docker Desktop (Mac / Windows / Linux)
-
----
-
-### 1️⃣ Clone the repository
-
-```bash
-git clone https://github.com/<your-username>/pinglo.git
-cd pinglo
