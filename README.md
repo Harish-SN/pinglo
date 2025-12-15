@@ -1,36 +1,67 @@
 # Pinglo 🟢
 
-**Pinglo** is a minimal, LAN-based chat application designed for private networks.  
-It uses **WebSockets** for real-time communication and **Docker** for simple, consistent deployment.
+Pinglo is a **minimal, LAN-first chat application** built for private networks.
 
-No accounts.  
-No database.  
-No cloud dependency.
+It lets people on the **same local network** join a room and chat instantly —  
+no accounts, no cloud, no external dependencies.
 
-Just enter a name, join a room, and chat — instantly.
+Designed to be:
+- simple
+- fast
+- private
+- easy to run anywhere
 
 ---
 
-## ✨ Features
+## ✨ What Pinglo Is
 
-- 🔌 Real-time chat using WebSockets
-- 🏠 Room-based messaging
-- 🌐 Works on local networks (LAN / Wi-Fi)
+- A **local chat tool** for offices, labs, hostels, classrooms, or home networks
+- A **Docker-first** app you can spin up in seconds
+- A clean, modern UI focused on clarity, not features
+
+---
+
+## 🚫 What Pinglo Is *Not*
+
+- No user accounts
+- No database
+- No message persistence
+- No analytics
+- No internet requirement (beyond loading the page)
+
+Pinglo is intentionally **stateless and ephemeral**.
+
+---
+
+## 🧊 Features
+
+- 🔌 Real-time messaging using WebSockets
+- 🏠 Room-based chat (anyone with the same room name joins)
+- 🌐 Works entirely on LAN / Wi-Fi
 - 🧊 Modern glass-style dark UI
-- 🐳 Docker-first setup
-- 🚫 No external services or tracking
+- 🐳 Docker & Docker Compose support
+- 🚀 Zero configuration required
 
 ---
 
 ## 🧱 Tech Stack
 
-- **Frontend:** HTML, CSS (Glassmorphism), Vanilla JS
+- **Frontend:** HTML, CSS (Glassmorphism), Vanilla JavaScript
 - **Backend:** Node.js + `ws` (WebSocket)
-- **Container:** Docker & Docker Compose
+- **Containerization:** Docker & Docker Compose
 
 ---
 
-## 🚀 Getting Started (Recommended: Docker)
+## 🚀 Getting Started (Docker – Recommended)
 
 ### Prerequisites
-- Docker Desktop (Mac / Windows / Linux)
+- Docker Desktop  
+  (macOS / Windows / Linux)
+
+---
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/Harish-SN/pinglo.git
+cd pinglo
