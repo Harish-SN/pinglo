@@ -55,6 +55,7 @@ Pinglo is intentionally **stateless and ephemeral**.
 ## 🚀 Getting Started (Docker – Recommended)
 
 ### Prerequisites
+
 - Docker Desktop  
   (macOS / Windows / Linux)
 
